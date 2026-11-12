@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>MasteringAgentFramework.Shared</RootNamespace>
+    <UserSecretsId>784e9feb-6fa2-4c58-bd07-5fba4b2da4c8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,5 +13,6 @@
     <PackageReference Include="Azure.Identity" />
     <PackageReference Include="Microsoft.Extensions.Configuration" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" />
   </ItemGroup>
 </Project>
